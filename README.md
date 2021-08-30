@@ -1,2 +1,2 @@
-# Treino-algorítimo
- treinos de algorítmos
+# CursoJS
+ Curso de JavaScript

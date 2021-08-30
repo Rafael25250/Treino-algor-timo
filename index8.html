@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste lógico</title>
+  <script>
+
+    
+    var pontos = 72;
+    var energia = 20;
+    //Vitória->  ( ((>=30)&&(<=40)) || ((>=70) && (<=80)) ) energia >= 40
+
+    if(((pontos>=30)&&(pontos<=40)&&(energia>=40))||((pontos>=70)&&(pontos<=80)&&(energia>=40))){
+      document.write('ganhou');
+    }else{
+      document.write('perdeu');
+    }
+
+
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
